@@ -1,6 +1,6 @@
 set :stage, :staging
 set :unicorn_rack_env, 'staging'
-set :branch, :master
+set :branch, :development
 set :deploy_to, '/u01/apps/sigma/deploy1/'
 set :log_level, :debug
 

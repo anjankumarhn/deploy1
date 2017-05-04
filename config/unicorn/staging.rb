@@ -11,7 +11,7 @@ timeout 300
 
 # This is where we specify the socket.
 # We will point the upstream Nginx module to this socket later on
-listen "/u01/apps/sigma/deploy1/shared/tmp/sockets/production.sock", :backlog => 64
+listen "/u01/apps/sigma/deploy1/shared/tmp/sockets/staging.sock", :backlog => 64
 
 pid "/u01/apps/sigma/deploy1/current/tmp/pids/unicorn.pid"
 

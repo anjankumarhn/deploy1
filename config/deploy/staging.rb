@@ -1,7 +1,7 @@
 set :stage, :staging
 set :unicorn_rack_env, 'staging'
-set :branch, :development
-set :deploy_to, '/u01/apps/sigma/deploy1/'
+set :branch, :puma_deploy
+set :deploy_to, '/u01/apps/sigma/deploy5/'
 set :log_level, :debug
 
 # Extended Server Syntax

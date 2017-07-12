@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'mysql2', '~> 0.4.4'
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -51,7 +52,7 @@ group :development do
   gem 'capistrano', '~> 3.4.1', '>= 3.4.1'
   gem 'capistrano-rails', '~> 1.1.3'
   gem 'capistrano-bundler', '~> 1.1.4'
-  # gem 'capistrano-nginx-unicorn', '~> 0.1.0'
+  gem 'capistrano-nginx-unicorn', '~> 0.1.0'
   gem 'capistrano3-puma'
 end
 
